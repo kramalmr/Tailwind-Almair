@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html"],
+  content: ["./public/**/*.{html,js}"],
   theme: {
     // spacing: {
     //   //kalo spacing dibawah tema, mengubah kode kelas awal/default, kalo extend menambahkan

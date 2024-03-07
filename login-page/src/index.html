@@ -12,9 +12,11 @@
     <title>Sign Up Nike Akram</title>
 </head>
 <body class="font-poppins">
-    <div class="w-full h-[100vh] md:flex flex-row items-center justify-between text-white bg-zinc-900 py-11 lg:gap-10 md:gap-0">
-        <div class="h-full w-full bg-cover bg-right hidden md:block lg:rounded-r-3xl lg:rounded-l-none md:mx-10 lg:m-0 md:rounded-3xl md:bg-center" style="background-image: url(/login-page/assets/bg.jpg);">
-            <img src="../assets/JUSTDOIT.png" alt="">
+    <div class="w-full h-screen md:flex flex-row items-center justify-between text-white bg-zinc-900 md:pb-11 lg:py-11 lg:gap-10 md:gap-5">
+        <div class="h-full w-full bg-cover bg-right hidden lg:rounded-r-3xl lg:rounded-l-none md:mt-10 lg:m-0 md:rounded-3xl md:bg-center md:flex items-center md:ml-4" style="background-image: url(/login-page/assets/bg.jpg);">
+            <div class="px-10">
+                <img class="w-auto" src="../assets/JUSTDOIT.png" alt="">
+            </div>
         </div>
         <div id="card" class="w-full max-h-[100vh] px-5 md:pl-1 py-10 bg-zinc-900 text-sm md:max-w-[70%] lg:pr-24 overflow-y-scroll">
             <span class="flex flex-row-reverse mb-6 items-center gap-5 justify-end">
@@ -37,8 +39,8 @@
                 </label>
                 
                 <label class="font-semibold text-white" for="email">Email Address
-                    <input invalid class="w-full font-normal placeholder:opacity-50 rounded-md h-11 border-[1px] border-gray-500 bg-black/0 focus:border-main/90 focus:text-white p-4 text-white focus:outline-none mb-4 mt-2 hover:placeholder:text-white invalid:border-red-400 invalid:text-red-400" placeholder="example@gmail.com" type="email" name="email" id="email">
-                    <div class="peer-invalid:block hidden text-red-400 text-xs">Email required</div>
+                    <input invalid class="w-full font-normal peer placeholder:opacity-50 rounded-md h-11 border-[1px] border-gray-500 bg-black/0 focus:border-main/90 focus:text-white p-4 text-white focus:outline-none invalid:mb-1 mb-4 mt-2 hover:placeholder:text-white invalid:border-red-400 invalid:text-red-400" placeholder="example@gmail.com" type="email" name="email" id="email">
+                    <p class="peer-invalid:block hidden text-red-400 text-xs mb-4">Please enter a valid Email</p>
                 </label>
                 
                 <label class="font-semibold text-white" for="pass">Password

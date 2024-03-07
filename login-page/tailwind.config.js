@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         "poppins" : "Poppins",
+      },
+      colors: {
+        main :"#EADCC7"
       }
     },
   },

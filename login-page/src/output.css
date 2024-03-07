@@ -582,6 +582,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -618,6 +622,26 @@ video {
   height: 100%;
 }
 
+.h-\[150vh\] {
+  height: 150vh;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-3 {
+  height: 0.75rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -642,12 +666,44 @@ video {
   width: 3rem;
 }
 
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.max-w-\[50\%\] {
+  max-width: 50%;
+}
+
+.max-w-\[80\%\] {
+  max-width: 80%;
+}
+
 .flex-row {
   flex-direction: row;
 }
 
 .flex-row-reverse {
   flex-direction: row-reverse;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -693,6 +749,10 @@ video {
 
 .self-center {
   align-self: center;
+}
+
+.self-baseline {
+  align-self: baseline;
 }
 
 .rounded-md {
@@ -741,6 +801,11 @@ video {
   background-color: rgb(234 220 199 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -772,12 +837,20 @@ video {
   padding-bottom: 2.75rem;
 }
 
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
 .text-center {
   text-align: center;
 }
 
 .font-poppins {
   font-family: Poppins;
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .text-2xl {
@@ -829,6 +902,14 @@ video {
 
 .underline {
   text-decoration-line: underline;
+}
+
+.caret-main {
+  caret-color: #EADCC7;
+}
+
+.accent-main {
+  accent-color: #EADCC7;
 }
 
 .\*\:rounded-md > * {
@@ -944,6 +1025,14 @@ video {
     margin-right: 2.5rem;
   }
 
+  .md\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .md\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -960,12 +1049,28 @@ video {
     gap: 0.75rem;
   }
 
+  .md\:gap-2 {
+    gap: 0.5rem;
+  }
+
+  .md\:gap-0 {
+    gap: 0px;
+  }
+
   .md\:rounded-3xl {
     border-radius: 1.5rem;
   }
 
   .md\:bg-center {
     background-position: center;
+  }
+
+  .md\:pr-3 {
+    padding-right: 0.75rem;
+  }
+
+  .md\:pl-3 {
+    padding-left: 0.75rem;
   }
 }
 

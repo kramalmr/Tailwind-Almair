@@ -1,70 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="output.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
     <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <!-- foont -->
     <title>Sign Up Nike Akram</title>
-</head>
-<body class="font-poppins">
-    <div class="w-full h-screen md:flex flex-row items-center justify-between text-white bg-zinc-900 md:pb-11 lg:py-11 lg:gap-10 md:gap-5">
-        <div class="h-full w-full bg-cover bg-right hidden lg:rounded-r-3xl lg:rounded-l-none md:mt-10 lg:m-0 md:rounded-3xl md:bg-center md:flex items-center md:ml-4" style="background-image: url(/login-page/assets/bg.jpg);">
-            <div class="px-10">
-                <img class="w-auto" src="../assets/JUSTDOIT.png" alt="">
-            </div>
+  </head>
+  <body class="font-poppins">
+    <div
+      class="w-full h-screen md:flex flex-row items-center justify-between text-white dark:text-zinc-900 bg-zinc-900 dark:bg-white md:pb-11 lg:py-11 lg:gap-10 md:gap-5"
+    >
+      <div
+        class="h-full w-full bg-cover bg-right hidden lg:rounded-r-3xl lg:rounded-l-none md:mt-10 lg:m-0 md:rounded-3xl md:bg-center md:flex items-center md:ml-4"
+        style="background-image: url(/assets/bg.jpg)"
+      >
+        <div class="px-10">
+          <img class="w-auto" src="/assets/JUSTDOIT.png" alt="" />
         </div>
-        <div id="card" class="w-full max-h-[100vh] px-5 md:pl-1 py-10 bg-zinc-900 text-sm md:max-w-[70%] lg:pr-24 overflow-y-scroll">
-            <span class="flex flex-row-reverse mb-6 items-center gap-5 justify-end">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-14 fill-white" viewBox="135.5 361.38 1000 356.39">
-                    <path d="M245.8075 717.62406c-29.79588-1.1837-54.1734-9.3368-73.23459-24.4796-3.63775-2.8928-12.30611-11.5663-15.21427-15.2245-7.72958-9.7193-12.98467-19.1785-16.48977-29.6734-10.7857-32.3061-5.23469-74.6989 15.87753-121.2243 18.0765-39.8316 45.96932-79.3366 94.63252-134.0508 7.16836-8.0511 28.51526-31.5969 28.65302-31.5969.051 0-1.11225 2.0153-2.57652 4.4694-12.65304 21.1938-23.47957 46.158-29.37751 67.7703-9.47448 34.6785-8.33163 64.4387 3.34693 87.5151 8.05611 15.898 21.86731 29.6684 37.3979 37.2806 27.18874 13.3214 66.9948 14.4235 115.60699 3.2245 3.34694-.7755 169.19363-44.801 368.55048-97.8366 199.35686-53.0408 362.49439-96.4029 362.51989-96.3672.056.046-463.16259 198.2599-703.62654 301.0914-38.08158 16.2806-48.26521 20.3928-66.16827 26.6785-45.76525 16.0714-86.76008 23.7398-119.89779 22.4235z"/>
-                </svg>
-                <svg class="w-16" viewBox="0 0 1900 783" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M668.568 0.110718L544.651 783H346.767C342.925 767.63 340.043 754.822 338.122 744.576C322.112 672.851 311.866 625.462 307.383 602.407C297.777 555.018 287.21 496.421 275.683 426.617C271.841 402.282 266.717 369.942 260.313 329.597C256.471 368.661 253.589 399.72 251.668 422.775C245.264 488.736 239.18 541.889 233.417 582.235C227.653 622.58 220.609 666.767 212.283 714.797C209.722 731.448 205.559 754.182 199.796 783H-0.00938034L123.908 0.110718H323.713L368.861 216.246L416.891 475.608C420.093 435.263 422.655 403.243 424.576 379.548C430.34 309.744 435.783 251.468 440.906 204.719C444.108 174.62 449.552 130.752 457.236 73.1163C459.158 55.1851 462.36 30.8499 466.842 0.110718H668.568ZM915.343 0.110718L787.583 783H576.251L703.05 0.110718H915.343ZM1499.94 0.110718L1275.16 375.705L1397.16 783H1172.38C1169.17 770.192 1166.61 759.625 1164.69 751.3C1149.32 688.541 1139.72 648.516 1135.87 631.225C1128.83 599.846 1119.54 554.377 1108.02 494.82C1104.81 476.248 1100.01 450.952 1093.61 418.932L1035.97 783H824.639L947.596 0.110718H1159.89L1107.06 333.439C1123.71 300.138 1136.83 273.562 1146.44 253.709C1173.34 199.916 1197.99 151.886 1220.41 109.619L1280.92 0.110718H1499.94ZM1899.04 0.110718L1870.22 187.428H1687.71L1670.42 292.133H1831.8L1802.98 479.45H1640.64L1622.39 595.683H1802.98L1773.2 783H1385.12L1510 0.110718H1899.04Z" fill="white"/>
-                </svg>
-            </span>
-            <div class="font-bold text-2xl mb-3">Ready to join the Member?</div>
-            <div class="text-sm mb-10 text-gray-500">Fill the form below to create a new account.</div>
-            <form action="" class="*:rounded-md *:placeholder:opacity-50">
-                <label class="font-semibold text-white" for="ID">ID
-                    <input disabled class="w-full font-normal placeholder:opacity-50 rounded-md h-11 border-[1px] border-gray-500 bg-black/0 focus:border-main/90 focus:text-white p-4 text-white focus:outline-none mb-4 mt-2 hover:placeholder:text-white disabled:opacity-70" placeholder="000-000" type="text" name="ID" id="ID">
-                </label>
-                
-                <label class="font-semibold text-white" for="user">Username
-                    <input required class="w-full font-normal placeholder:opacity-50 rounded-md h-11 border-[1px] border-gray-500 bg-black/0 focus:border-main/90 focus:text-white p-4 text-white focus:outline-none mb-4 mt-2 hover:placeholder:text-white" placeholder="Username" type="text" name="user" id="user">
-                </label>
-                
-                <label class="font-semibold text-white" for="email">Email Address
-                    <input invalid class="w-full font-normal peer placeholder:opacity-50 rounded-md h-11 border-[1px] border-gray-500 bg-black/0 focus:border-main/90 focus:text-white p-4 text-white focus:outline-none invalid:mb-1 mb-4 mt-2 hover:placeholder:text-white invalid:border-red-400 invalid:text-red-400" placeholder="example@gmail.com" type="email" name="email" id="email">
-                    <p class="peer-invalid:block hidden text-red-400 text-xs mb-4">Please enter a valid Email</p>
-                </label>
-                
-                <label class="font-semibold text-white" for="pass">Password
-                    <input required class="w-full font-normal placeholder:opacity-50 rounded-md h-11 border-[1px] border-gray-500 bg-black/0 focus:border-main/90 focus:text-white p-4 text-white focus:outline-none mb-4 mt-2 hover:placeholder:text-white" placeholder="Password" type="password" name="pass" id="pass">
-                </label>
-                
-                <label class="flex flex-row items-center gap-5 mb-5">
-                    <input class="accent-main" required type="checkbox" name="" id="">
-                    <div class="text-xs"> I agree to Nike's <a class="text-white underline" href="">Privacy Policy</a> and <a class="text-white underline" href="">Terms of Use</a>.</div>
-                </label>
-                <label class="flex flex-row items-center gap-5 max-w-[80%]">
-                    <input class="accent-main" type="checkbox" name="" id="">
-                    <div class="text-xs"> Sign up for emails to get updates from Nike on products, offers and your Member benefits.</div>
-                </label>
-                <button class="w-full h-12 bg-main mt-10 mb-5 text-black font-semibold" type="submit">Create Account</button>
-            </form>
-            <div class="flex flex-row items-center justify-center gap-3">
-                <div class="w-full h-[0.1px] border-white border-[1px]"></div>
-                <div class="self-center">Or</div>
-                <div class="w-full h-[0.1px] border-white border-[1px]"></div>
-            </div>
-            <button class="w-full h-12 bg-white my-5 text-black font-semibold rounded-md"><span class="inline-flex items-baseline"><img class="w-6 h-6 self-baseline mr-5" src="/login-page/assets/googleLogo.png" alt=""><span class="self-center">Sign up with Google</span></span></button>
-            <div class="text-gray-500 text-sm text-center mx-auto">Already have an account? <a class="text-white font-semibold underline" href="./login.html">Sign in</a></div>
+      </div>
+      <div
+        id="card"
+        class="w-full max-h-[100vh] px-5 md:pl-1 py-10 bg-zinc-900 dark:bg-white text-sm md:max-w-[70%] lg:pr-24 overflow-y-scroll"
+      >
+        <span class="flex flex-row-reverse mb-6 items-center gap-5 justify-end">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-14 fill-white dark:fill-zinc-900"
+            viewBox="135.5 361.38 1000 356.39"
+          >
+            <path
+              d="M245.8075 717.62406c-29.79588-1.1837-54.1734-9.3368-73.23459-24.4796-3.63775-2.8928-12.30611-11.5663-15.21427-15.2245-7.72958-9.7193-12.98467-19.1785-16.48977-29.6734-10.7857-32.3061-5.23469-74.6989 15.87753-121.2243 18.0765-39.8316 45.96932-79.3366 94.63252-134.0508 7.16836-8.0511 28.51526-31.5969 28.65302-31.5969.051 0-1.11225 2.0153-2.57652 4.4694-12.65304 21.1938-23.47957 46.158-29.37751 67.7703-9.47448 34.6785-8.33163 64.4387 3.34693 87.5151 8.05611 15.898 21.86731 29.6684 37.3979 37.2806 27.18874 13.3214 66.9948 14.4235 115.60699 3.2245 3.34694-.7755 169.19363-44.801 368.55048-97.8366 199.35686-53.0408 362.49439-96.4029 362.51989-96.3672.056.046-463.16259 198.2599-703.62654 301.0914-38.08158 16.2806-48.26521 20.3928-66.16827 26.6785-45.76525 16.0714-86.76008 23.7398-119.89779 22.4235z"
+            />
+          </svg>
+          <svg
+            class="w-16 dark:hidden"
+            fill="white"
+            viewBox="0 0 1900 783"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1899.05 0L1870.23 187.317H1687.72L1670.43 292.022H1831.81L1802.99 479.34H1640.65L1622.4 595.572H1802.99L1773.21 782.889H1385.13L1510.01 0H1899.05Z"
+              fill="white"
+            />
+            <path
+              d="M1499.95 0L1275.17 375.595L1397.17 782.889H1172.39C1169.18 770.081 1166.62 759.515 1164.7 751.189C1149.33 688.43 1139.73 648.405 1135.88 631.114C1128.84 599.735 1119.55 554.266 1108.03 494.709C1104.82 476.138 1100.02 450.842 1093.62 418.822L1035.98 782.889H824.648L947.605 0H1159.9L1107.06 333.328C1123.72 300.027 1136.84 273.451 1146.45 253.598C1173.35 199.805 1198 151.775 1220.42 109.508L1280.93 0H1499.95Z"
+              fill="white"
+            />
+            <path
+              d="M915.352 0L787.592 782.889H576.26L703.06 0H915.352Z"
+              fill="white"
+            />
+            <path
+              d="M668.578 0L544.66 782.889H346.777C342.934 767.52 340.053 754.712 338.131 744.465C322.121 672.74 311.875 625.351 307.392 602.296C297.786 554.907 287.219 496.31 275.692 426.507C271.85 402.171 266.727 369.831 260.323 329.486C256.48 368.55 253.598 399.61 251.677 422.664C245.273 488.625 239.189 541.779 233.426 582.124C227.662 622.469 220.618 666.657 212.293 714.687C209.731 731.337 205.568 754.071 199.805 782.889H0L123.917 0H323.722L368.871 216.135L416.901 475.497C420.103 435.152 422.664 403.132 424.585 379.437C430.349 309.634 435.792 251.357 440.916 204.608C444.118 174.509 449.561 130.642 457.246 73.0056C459.167 55.0744 462.369 30.7392 466.852 0H668.578Z"
+              fill="white"
+            />
+          </svg>
+          <svg
+            class="w-16 hidden dark:block"
+            viewBox="0 0 1900 783"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1899.05 0L1870.23 187.317H1687.72L1670.43 292.022H1831.81L1802.99 479.34H1640.65L1622.4 595.572H1802.99L1773.21 782.889H1385.13L1510.01 0H1899.05Z"
+              fill="#18181B"
+            />
+            <path
+              d="M1499.95 0L1275.17 375.595L1397.17 782.889H1172.39C1169.18 770.081 1166.62 759.515 1164.7 751.189C1149.33 688.43 1139.73 648.405 1135.88 631.114C1128.84 599.735 1119.55 554.266 1108.03 494.709C1104.82 476.138 1100.02 450.842 1093.62 418.822L1035.98 782.889H824.649L947.605 0H1159.9L1107.07 333.328C1123.72 300.027 1136.84 273.451 1146.45 253.598C1173.35 199.805 1198 151.775 1220.42 109.508L1280.93 0H1499.95Z"
+              fill="#18181B"
+            />
+            <path
+              d="M915.352 0L787.593 782.889H576.26L703.06 0H915.352Z"
+              fill="#18181B"
+            />
+            <path
+              d="M668.578 0L544.66 782.889H346.777C342.934 767.52 340.053 754.712 338.131 744.465C322.121 672.74 311.875 625.351 307.392 602.296C297.786 554.907 287.219 496.31 275.692 426.507C271.85 402.171 266.727 369.831 260.323 329.486C256.48 368.55 253.598 399.61 251.677 422.664C245.273 488.625 239.189 541.779 233.426 582.124C227.662 622.469 220.618 666.657 212.293 714.687C209.731 731.337 205.568 754.071 199.805 782.889H0L123.917 0H323.722L368.871 216.135L416.901 475.497C420.103 435.152 422.664 403.132 424.585 379.437C430.349 309.634 435.792 251.357 440.916 204.608C444.118 174.509 449.561 130.642 457.246 73.0056C459.167 55.0744 462.369 30.7392 466.852 0H668.578Z"
+              fill="#18181B"
+            />
+          </svg>
+        </span>
+        <div class="font-bold text-2xl mb-3">Ready to join the Member?</div>
+        <div class="text-sm mb-10 text-gray-500">
+          Fill the form below to create a new account.
         </div>
+        <form action="" class="*:rounded-md *:placeholder:opacity-60">
+          <label class="font-semibold text-white dark:text-zinc-900" for="ID"
+            >ID
+            <input
+              disabled
+              class="w-full font-normal placeholder:opacity-50 rounded-md h-11 border-[1px] border-gray-500 bg-black/0 focus:border-main/90 focus:text-white dark:focus:text-zinc-900 p-4 text-white dark:text-zinc-900 focus:outline-none mb-4 mt-2 dark:hover:placeholder:text-zinc-900 hover:placeholder:text-white disabled:opacity-70"
+              placeholder="000-000"
+              type="text"
+              name="ID"
+              id="ID"
+            />
+          </label>
+
+          <label class="font-semibold text-white dark:text-zinc-900" for="user"
+            >Username
+            <input
+              required
+              class="w-full font-normal placeholder:opacity-50 rounded-md h-11 border-[1px] border-gray-500 bg-black/0 focus:border-main/90 focus:text-white dark:focus:text-zinc-900 p-4 text-white dark:text-zinc-900 focus:outline-none mb-4 mt-2 dark:hover:placeholder:text-zinc-900 hover:placeholder:text-white"
+              placeholder="Username"
+              type="text"
+              name="user"
+              id="user"
+            />
+          </label>
+
+          <label class="font-semibold text-white dark:text-zinc-900" for="email"
+            >Email Address
+            <input
+              invalid
+              class="w-full font-normal peer placeholder:opacity-50 rounded-md h-11 border-[1px] border-gray-500 bg-black/0 focus:border-main/90 focus:text-white dark:focus:text-zinc-900 p-4 text-white dark:text-zinc-900 focus:outline-none invalid:mb-1 mb-4 mt-2 dark:hover:placeholder:text-zinc-900 hover:placeholder:text-white invalid:border-red-400 invalid:text-red-400"
+              placeholder="example@gmail.com"
+              type="email"
+              name="email"
+              id="email"
+            />
+            <p class="peer-invalid:block hidden text-red-400 text-xs mb-4">
+              Please enter a valid Email
+            </p>
+          </label>
+
+          <label class="font-semibold text-white dark:text-zinc-900" for="pass"
+            >Password
+            <input
+              required
+              class="w-full font-normal placeholder:opacity-50 rounded-md h-11 border-[1px] border-gray-500 bg-black/0 focus:border-main/90 focus:text-white dark:focus:text-zinc-900 p-4 text-white dark:text-zinc-900 focus:outline-none mb-4 mt-2 dark:hover:placeholder:text-zinc-900 hover:placeholder:text-white"
+              placeholder="Password"
+              type="password"
+              name="pass"
+              id="pass"
+            />
+          </label>
+
+          <label class="flex flex-row items-center gap-5 mb-5">
+            <input class="accent-main" required type="checkbox" name="" id="" />
+            <div class="text-xs">
+              I agree to Nike's
+              <a class="text-white dark:text-zinc-900 underline" href=""
+                >Privacy Policy</a
+              >
+              and
+              <a class="text-white underline dark:text-zinc-900" href=""
+                >Terms of Use</a
+              >.
+            </div>
+          </label>
+          <label class="flex flex-row items-center gap-5 max-w-[80%]">
+            <input class="accent-main" type="checkbox" name="" id="" />
+            <div class="text-xs">
+              Sign up for emails to get updates from Nike on products, offers
+              and your Member benefits.
+            </div>
+          </label>
+          <button
+            class="w-full h-12 bg-main mt-10 mb-5 text-black font-semibold"
+            type="submit"
+          >
+            Create Account
+          </button>
+        </form>
+        <div class="flex flex-row items-center justify-center gap-3">
+          <div
+            class="w-full h-[0.1px] border-white dark:border-zinc-900 border-[1px]"
+          ></div>
+          <div class="self-center">Or</div>
+          <div
+            class="w-full h-[0.1px] border-white dark:border-zinc-900 border-[1px]"
+          ></div>
+        </div>
+        <button
+          class="w-full h-12 bg-white my-5 text-black dark:text-white dark:bg-zinc-900 font-semibold rounded-md"
+        >
+          <span class="inline-flex items-baseline"
+            ><img
+              class="w-6 h-6 self-baseline mr-5"
+              src="/assets/googleLogo.png"
+              alt=""
+            /><span class="self-center">Sign up with Google</span></span
+          >
+        </button>
+        <div class="text-gray-500 text-sm text-center mx-auto">
+          Already have an account?
+          <a
+            class="text-white font-semibold underline dark:text-zinc-900"
+            href="./login.html"
+            >Sign in</a
+          >
+        </div>
+        <div
+          class="flex items-center justify-center flex-row-reverse gap-1 mt-3"
+          id="darkmode"
+        >
+          <!-- svg matahari, ambil code nya di hero-icon -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="text-white dark:stroke-2 dark:text-main h-6 w-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"
+            />
+          </svg>
+          <button class="h-5 w-10 rounded-full bg-main dark:bg-zinc-900 p-0.5">
+            <div class="h-4 w-4 rounded-full bg-white dark:translate-x-5"></div>
+          </button>
+          <!-- svg bulan, ambil code nya di hero-icon -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="text-main dark:stroke-2 dark:stroke-black h-6 w-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"
+            />
+          </svg>
+        </div>
+      </div>
     </div>
-</body>
+
+    <script>
+      function toDT() {
+        if (localStorage.getItem("theme") === "dark") {
+          localStorage.setItem("theme", "light");
+          document.documentElement.classList.remove("dark");
+        } else {
+          localStorage.setItem("theme", "dark");
+          document.documentElement.classList.add("dark");
+        }
+      }
+      document.querySelector("#darkmode").addEventListener("click", toDT);
+      if (localStorage.getItem("theme") === "dark") {
+        document.documentElement.classList.add("dark");
+      }
+    </script>
+  </body>
 </html>
